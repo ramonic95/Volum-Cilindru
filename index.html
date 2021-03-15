@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul Volum Cilindru</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="cont">
+
+
+        <label for="Radius">Radius</label>
+        <br>
+        <input id="radius" type="number" name="radius" onchange="cilinderVolume()" placeholder="enter radius...">
+        <br>
+        <br>
+        <label for="Height">Height</label>
+        <br>
+        <input id="height" type="number" name="height" onchange="cilinderVolume()" placeholder="enter height...">
+        <br>
+        <br>
+        <label for="Pi">π contstant</label>
+        <br>
+        <input id="pie" type="number" name="pie" disabled value="3.1415926535">
+        <br>
+        <br>
+        <label for="Result">Result</label>
+        <br>
+        <input id="result" type="text" onchange="cilinderVolume()" name="result">
+
+
+        <script src="scripts.js"></script>
+        
+
+    </div>
+
+</body>
